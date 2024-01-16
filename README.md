@@ -1,16 +1,14 @@
-# JasmineCheatSheet
-
 # Jasmine Cheat Sheet
 
 [Jasmine](https://jasmine.github.io/) is a popular behavior-driven development (BDD) testing framework for JavaScript. It's commonly used to write tests for JavaScript code to ensure its correctness.
 
-#### <span style="color: #ff5733;">Key Terminology</span>
+#### <span style="color: #ff5733;">**Key Terminology:**</span>
 
-- <span style="color: #ff5733;">**Suite**</span>: A group of related test cases.
-- <span style="color: #ff5733;">**Spec**</span>: A single test case or test scenario.
-- <span style="color: #ff5733;">**Matcher**</span>: A function that checks if the actual value meets an expected condition.
+- <span style="color: #ff5733; font-weight: bold;">**Suite**</span>: A group of related test cases.
+- <span style="color: #ff5733; font-weight: bold;">**Spec**</span>: A single test case or test scenario.
+- <span style="color: #ff5733; font-weight: bold;">**Matcher**</span>: A function that checks if the actual value meets an expected condition.
 
-#### <span style="color: #ff5733;">Basic Test Structure</span>
+#### <span style="color: #ff5733; font-weight: bold;">**Basic Test Structure:**</span>
 
 \`\`\`javascript
 describe('Suite Name', () => {
@@ -24,7 +22,7 @@ describe('Suite Name', () => {
 });
 \`\`\`
 
-#### <span style="color: #ff5733;">Matchers</span>
+#### <span style="color: #ff5733; font-weight: bold;">**Matchers:**</span>
 
 Matchers are functions used within test expectations to check if a condition is met.
 
@@ -52,7 +50,7 @@ expect(true).toBeTruthy();
 expect(false).toBeFalsy();
 \`\`\`
 
-#### <span style="color: #ff5733;">Spies</span>
+#### <span style="color: #ff5733; font-weight: bold;">**Spies:**</span>
 
 Spies are used to mock or spy on function calls.
 
@@ -75,7 +73,7 @@ expect(obj.doSomething).toHaveBeenCalled();
 expect(obj.doSomething).toHaveBeenCalledWith('arg1', 'arg2');
 \`\`\`
 
-#### <span style="color: #ff5733;">Async Testing</span>
+#### <span style="color: #ff5733; font-weight: bold;">**Async Testing:**</span>
 
 Jasmine provides mechanisms for handling asynchronous code.
 
@@ -90,7 +88,7 @@ it('Async Spec', (done) => {
 });
 \`\`\`
 
-#### <span style="color: #ff5733;">Custom Matchers</span>
+#### <span style="color: #ff5733; font-weight: bold;">**Custom Matchers:**</span>
 
 You can create custom matchers to enhance readability.
 
@@ -115,7 +113,7 @@ beforeEach(() => {
 expect(4).toBeEven();
 \`\`\`
 
-#### <span style="color: #ff5733;">Spying on Functions</span>
+#### <span style="color: #ff5733; font-weight: bold;">**Spying on Functions:**</span>
 
 Spies can be used to spy on function calls.
 
@@ -139,6 +137,4 @@ expect(obj.doSomething).toHaveBeenCalledWith('arg1', 'arg2');
 \`\`\`
 
 This cheat sheet provides a quick reference to common Jasmine functions and concepts to help you write effective JavaScript tests.
-`;
 
-console.log(markdownContent);
